@@ -1,0 +1,117 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+   
+    background-image: url(cover.jpg);
+    background-size: cover;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Container{
+ 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+
+.SearchBar{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+ input{
+    
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    padding: 12px;
+    border: none;
+    border-bottom: 4px rgb(240, 77, 0) solid;
+    border-radius: 15px 0px 15px 0px;
+
+
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.city-Data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.city-data .city-name{
+  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    font-size: 41px;
+    color: white;
+   
+}
+
+.city-data .date{
+    padding: 4px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.temp-info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.temp-info .current-temp{
+    padding: 40px;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.temp-info .weather{
+    padding: 12px;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.temp-info .min-max-temp{
+    padding: 12px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
